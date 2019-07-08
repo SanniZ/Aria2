@@ -75,7 +75,7 @@ else
         ;;
         k)
             get_aria2_ports
-            if [ ${tcp_pid} != 0 ];
+            if [ ${tcp_pid} != 0 ]; then
                 kill_aria2_port ${tcp_pid}
             fi
         ;;
